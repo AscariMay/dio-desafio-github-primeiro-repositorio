@@ -13,7 +13,7 @@ O Git Bash é um terminal estendido para otimizar o uso do Git.
   Quando criamos, modificamos ou excluímos um arquivo, essas alterações ocorrerão em nosso ambiente local. Então, precisamos usar esse comando para incluir as alterações de um arquivo em nosso próximo commit.
 
   Para adicionar apenas um arquivo:
-  git add <arquivo>
+  git add *<arquivo>*
 
   Para adicionar, de uma vez, todos os arquivos modificados:
   git add -A ou git add *
@@ -24,7 +24,7 @@ O Git Bash é um terminal estendido para otimizar o uso do Git.
 
 - ### git commit
 
-  Este comando é como definir um ponto de verificação no processo de desenvolvimento, o qual você pode voltar mais tarde, se necessário.
+  Este comando basicamente define um ponto de verificação no processo de desenvolvimento, o qual você pode voltar mais tarde caso necessário.
 
   *git commit -m* "mensagem explicando a mudança no código".
 
